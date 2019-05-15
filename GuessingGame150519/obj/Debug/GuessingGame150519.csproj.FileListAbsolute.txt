@@ -1,0 +1,6 @@
+C:\Users\HackerU\source\repos\GuessingGame150519\GuessingGame150519\bin\Debug\GuessingGame150519.exe.config
+C:\Users\HackerU\source\repos\GuessingGame150519\GuessingGame150519\bin\Debug\GuessingGame150519.exe
+C:\Users\HackerU\source\repos\GuessingGame150519\GuessingGame150519\bin\Debug\GuessingGame150519.pdb
+C:\Users\HackerU\source\repos\GuessingGame150519\GuessingGame150519\obj\Debug\GuessingGame150519.csproj.CoreCompileInputs.cache
+C:\Users\HackerU\source\repos\GuessingGame150519\GuessingGame150519\obj\Debug\GuessingGame150519.exe
+C:\Users\HackerU\source\repos\GuessingGame150519\GuessingGame150519\obj\Debug\GuessingGame150519.pdb
