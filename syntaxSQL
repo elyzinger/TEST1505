@@ -1,0 +1,20 @@
+Answer 1. 
+update Courses set num_of_students = 
+(select COUNT(*) student_id from Grades where
+ Grades.course_id = Courses.id  )
+ 
+ Answer 2. 
+ update Courses 
+set avg_grade = b.AvgGrade 
+from 
+(
+select Course_Id, AVG(Grades.grade) As AvgGrade 
+from Grades group by Course_Id
+)b 
+where b.course_id = Courses.id
+
+ Answer 3.
+ update Courses 
+set highest_grade =
+(select max(Grades.grade) from Grades 
+where Grades.course_id = Courses.id)
