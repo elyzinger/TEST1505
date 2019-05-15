@@ -18,3 +18,23 @@ where b.course_id = Courses.id
 set highest_grade =
 (select max(Grades.grade) from Grades 
 where Grades.course_id = Courses.id)
+
+SELECT TOP (1000) [id]
+      ,[name]
+      ,[hours]
+      ,[avg_grade]
+      ,[num_of_students]
+      ,[highest_grade]
+  FROM [School].[dbo].[Courses]
+  
+  SELECT TOP (1000) [course_id]
+      ,[student_id]
+      ,[grade]
+  FROM [School].[dbo].[Grades]
+  
+  SELECT TOP (1000) [id]
+      ,[first_name]
+      ,[last_name]
+      ,[address]
+      ,[age]
+  FROM [School].[dbo].[Students]
